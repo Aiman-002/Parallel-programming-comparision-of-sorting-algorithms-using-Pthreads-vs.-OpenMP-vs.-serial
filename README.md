@@ -21,8 +21,8 @@ Installation Procedure:
 
 1. Open your terminal by pressing <code>Ctrl + Alt + T</code>
 2. Type <code>sudo apt-get install git</code> to install git on your linux system. Skip this step if you have installed git on your system.
-3. After the installation done, type <code>git clone https://github.com/Aiman-002/Parallel-programming-comparision-of-sorting-algorithms-using-Pthreads-vs.-OpenMP-vs.-serial </code>
-4. After step(3) type cd Parallel-programming-comparision-of-sorting-algorithms-using-Pthreads-vs.-OpenMP-vs.-serial
+3. After the installation done, type <code>git clone https://github.com/Aiman-002/Parallel-programming-comparision-of-sorting-algorithms-using-Pthreads-vs.-OpenMP-vs.-serial.git </code>
+4. After step(3) type cd Pthreads-vs.-OpenMP-vs.-serial
 5. Type ls to list all source files
 6. Compile source code by typing <code>gcc -o any_name merge_pthread.c -lpthread</code>. For *omp.c* files replace *-lpthread* with *-fopenmp*
 and *pthread.c* with *omp.c*
